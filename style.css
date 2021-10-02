@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 54, 190);
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin-top: 5em;
+}
+
+#ip-op-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    
+}
+#ip-op-container input{
+    margin: 2em 0;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+}
+
+#ip-op-container button{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(30,54,190);
+    border-radius: 5px;
+    border: none;
+}
+
+#footer{
+    margin-top: 3em;
+}
+#footer a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1em;
+}
